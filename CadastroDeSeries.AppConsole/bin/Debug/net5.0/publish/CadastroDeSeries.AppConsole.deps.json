@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CadastroDeSeries.AppConsole/1.0.0": {
+        "dependencies": {
+          "CadastroDeSeries": "1.0.0"
+        },
+        "runtime": {
+          "CadastroDeSeries.AppConsole.dll": {}
+        }
+      },
+      "CadastroDeSeries/1.0.0": {
+        "runtime": {
+          "CadastroDeSeries.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CadastroDeSeries.AppConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CadastroDeSeries/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

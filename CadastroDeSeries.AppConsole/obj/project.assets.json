@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\steph\\OneDrive\\Documentos\\GitHub\\ApiCadastroDeSeries\\CadastroDeSeries.Api\\CadastroDeSeries.Api.csproj",
-      "projectName": "CadastroDeSeries.Api",
-      "projectPath": "C:\\Users\\steph\\OneDrive\\Documentos\\GitHub\\ApiCadastroDeSeries\\CadastroDeSeries.Api\\CadastroDeSeries.Api.csproj",
+      "projectUniqueName": "c:\\Users\\steph\\OneDrive\\Documentos\\GitHub\\ApiCadastroDeSeries\\CadastroDeSeries.Api\\CadastroDeSeries.AppConsole.csproj",
+      "projectName": "CadastroDeSeries.AppConsole",
+      "projectPath": "c:\\Users\\steph\\OneDrive\\Documentos\\GitHub\\ApiCadastroDeSeries\\CadastroDeSeries.Api\\CadastroDeSeries.AppConsole.csproj",
       "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\steph\\OneDrive\\Documentos\\GitHub\\ApiCadastroDeSeries\\CadastroDeSeries.Api\\obj\\",
+      "outputPath": "c:\\Users\\steph\\OneDrive\\Documentos\\GitHub\\ApiCadastroDeSeries\\CadastroDeSeries.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config"
