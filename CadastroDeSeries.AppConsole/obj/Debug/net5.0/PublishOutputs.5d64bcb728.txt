@@ -1,7 +1,0 @@
-c:\Users\steph\OneDrive\Documentos\GitHub\ApiCadastroDeSeries\CadastroDeSeries.Api\bin\Debug\net5.0\publish\CadastroDeSeries.AppConsole.exe
-c:\Users\steph\OneDrive\Documentos\GitHub\ApiCadastroDeSeries\CadastroDeSeries.Api\bin\Debug\net5.0\publish\CadastroDeSeries.AppConsole.dll
-c:\Users\steph\OneDrive\Documentos\GitHub\ApiCadastroDeSeries\CadastroDeSeries.Api\bin\Debug\net5.0\publish\CadastroDeSeries.AppConsole.deps.json
-c:\Users\steph\OneDrive\Documentos\GitHub\ApiCadastroDeSeries\CadastroDeSeries.Api\bin\Debug\net5.0\publish\CadastroDeSeries.AppConsole.runtimeconfig.json
-c:\Users\steph\OneDrive\Documentos\GitHub\ApiCadastroDeSeries\CadastroDeSeries.Api\bin\Debug\net5.0\publish\CadastroDeSeries.AppConsole.pdb
-c:\Users\steph\OneDrive\Documentos\GitHub\ApiCadastroDeSeries\CadastroDeSeries.Api\bin\Debug\net5.0\publish\CadastroDeSeries.dll
-c:\Users\steph\OneDrive\Documentos\GitHub\ApiCadastroDeSeries\CadastroDeSeries.Api\bin\Debug\net5.0\publish\CadastroDeSeries.pdb
