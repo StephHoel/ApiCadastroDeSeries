@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API;
 
-public class Program
+public static class Program
 {
     public static void Main(string[] args)
     {
@@ -14,7 +14,7 @@ public class Program
         // Add services to the container.
         builder.Services.AddAuthorization();
 
-        // Configuração do EF Core
+        // Configuraï¿½ï¿½o do EF Core
         builder.Services.AddDbContext<SeriesCatalogDbContext>(options =>
             options.UseSqlite("Data Source=SeriesCatalog.db"));
 

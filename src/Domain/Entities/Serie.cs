@@ -1,16 +1,11 @@
-﻿using Domain.DTOs;
+﻿using Domain.Common;
+using Domain.DTOs;
 
 namespace Domain.Entities;
 
-public class Serie
+public class Serie : SerieBase
 {
     public Guid Id { get; set; }
-    public string Title { get; set; }
-    public int Seasons { get; set; }
-    public List<string> Genre { get; set; }
-    public string Description { get; set; }
-    public int ReleaseYear { get; set; }
-
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
     public DateTime? DeletedAt { get; set; }
@@ -38,7 +33,7 @@ public class Serie
 
     public static implicit operator Serie(SerieDto dto)
     {
-        return new Serie()
+        return new Serie
         {
             Id = dto.Id ?? Guid.NewGuid(),
             Title = dto.Title,

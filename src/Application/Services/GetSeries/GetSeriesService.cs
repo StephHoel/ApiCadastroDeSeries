@@ -55,7 +55,9 @@ public class GetSeriesService : IGetSeriesService
         var series = _repository.GetByIds(ids);
 
         foreach (var serie in series)
+        {
             serie.DeletedAt = DateTime.UtcNow;
+        }
 
         await _repository.UpdateAsync(series);
 

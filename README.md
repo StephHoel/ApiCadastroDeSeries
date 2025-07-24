@@ -6,8 +6,10 @@ O objetivo desta API é criar um catálogo de séries. Para isto, foi utilizado 
 
 ## Info adicional
 
-Para alterar banco de dados (Seed incluso), utilizar os comandos direto da pasta `./src`:
+Ao alterar BD (Seed incluso), utilizar os comandos direto da pasta `./src`.
 
-`dotnet ef migrations add <NomeDaMigration> -p Infra -s Api` para criar a migration
+Criar migration:
+`dotnet ef migrations add <NomeDaMigration> -p Infra -s Api`
 
-`dotnet ef database update -p Infra -s Api` para atualizar o banco
+Atualizar banco:
+`dotnet ef database update -p Infra -s Api`

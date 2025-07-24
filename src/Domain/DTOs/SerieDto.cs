@@ -1,15 +1,11 @@
-﻿using Domain.Entities;
+﻿using Domain.Common;
+using Domain.Entities;
 
 namespace Domain.DTOs;
 
-public class SerieDto
+public class SerieDto : SerieBase
 {
     public Guid? Id { get; set; }
-    public string Title { get; set; }
-    public int Seasons { get; set; }
-    public List<string> Genre { get; set; }
-    public string Description { get; set; }
-    public int ReleaseYear { get; set; }
 
     private SerieDto()
     {
@@ -17,7 +13,7 @@ public class SerieDto
 
     public static implicit operator SerieDto(Serie entity)
     {
-        return new SerieDto()
+        return new SerieDto
         {
             Id = entity.Id,
             Title = entity.Title,
