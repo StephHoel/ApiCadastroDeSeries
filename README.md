@@ -1,5 +1,13 @@
-# ApiCadastroDeSeries
+# SeriesCatalog
 
-Aqui temos uma integração do banco de dados em arquivo que já estava em funcionamento no [CadastroDeSeries](https://github.com/StephHoel/dotnet/tree/main/CadastroDeSeries) junto à função API em total funcionamento
+O objetivo desta API é criar um catálogo de séries. Para isto, foi utilizado .Net 9 e SQLite no CRUD inicial.
 
-Os dados são recebidos pela API, que envia as informações para o arquivo (em caso de escrita/alterção/exclusão) ou recebe as informações (em caso de consulta).
+---
+
+## Info adicional
+
+Para alterar banco de dados (Seed incluso), utilizar os comandos direto da pasta `./src`:
+
+`dotnet ef migrations add <NomeDaMigration> -p Infra -s Api` para criar a migration
+
+`dotnet ef database update -p Infra -s Api` para atualizar o banco
